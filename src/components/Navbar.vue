@@ -29,6 +29,10 @@ export default class Navbar extends Vue {}
   display: flex;
   justify-content: space-between;
   align-items: center;
+  &__logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
   &__nav-links {
     ul {
       display: flex;
@@ -37,6 +41,9 @@ export default class Navbar extends Vue {}
     }
   }
   &__account {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     img {
       width: 35px;
       height: 35px;
