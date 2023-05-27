@@ -29,6 +29,7 @@ export default class Navbar extends Vue {}
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 24px;
   &__logo {
     font-size: 24px;
     font-weight: 700;

@@ -24,22 +24,21 @@ export default class Navbar extends Vue {}
 
 <style lang="scss" scoped>
 .hero {
-  max-width: 1080px;
-  margin: 80px auto;
+  max-width: 1180px;
+  margin: 60px auto 0;
   display: flex;
+  padding: 24px;
+  justify-content: space-between;
 
   &__left {
-    width: 40%;
-  }
-  &__right {
-    width: 60%;
+    max-width: 550px;
   }
   &__title {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 700;
   }
   &__bottle {
-    width: 500px;
+    width: 150px;
   }
   &__button {
     background-color: black;
