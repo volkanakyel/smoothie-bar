@@ -24,7 +24,7 @@ export default class Navbar extends Vue {}
 
 <style lang="scss" scoped>
 .hero {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 60px auto 0;
   display: flex;
   padding: 24px;
